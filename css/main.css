@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+      /* default styles */
+html,
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.4em;
+  text-align: center;
+  background-color: #BF3EFF;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3 {
+ font-family: 'Rock Salt', cursive;
+ color: #eaeaea;
+ padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+/* Moving the word "tickets" closer to the table
+to show more unity between them */
+h3:nth-child(1) {
+  padding: 25px 0 10px 0;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+      /* Hero Section */
+header {
+  height: 500px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-image: url(../images/awesomefest3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.images {
+  display:flex;
+}
+
+img {
+  width: 100%;
+  height: 400px;
+}
+
+.images div {
+  width: 50%;
+}
+
+      /* table styles */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  background-color: #9030bf;
+  border-collapse: collapse;
+}
+
+/* this is for javascript adding class */
+.checked {
+  background-color: #BF3EFF;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+main {
+  padding-top: 60px 0;
+}
+
+form {
+  margin-top: 50px;
+}
+
+fieldset {
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+input,
+label {
+  width: 80%;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+form fieldset:nth-child(5) input {
+  width: inherit;
+}
+
+form fieldset:nth-child(5) label {
+  padding: 0 0 0 40px;
+}
+
+fieldset:nth-child(8) {
+  border-bottom: 1px solid black;
+}
+
+/* removing the arrows from the number input field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+ /* removing arros from number input field for firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+footer {
+  background-color: #9030bf;
+  width: 100%;
+}
+
+footer p {
+  color: #000;
+  padding: 30px;
+  margin: 30px 0 0 0;
+}
+
+footer p:nth-child(2) {
+  margin: 0;
+  padding: 0 0 10px 0;
+  /* padding: 0; */
+  font-size: 1em;
+}

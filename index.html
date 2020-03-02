@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>AwesomeFest 2020</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Rock+Salt&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>AwesomeFest</h1>
+        <h2> Coming to Barrie, Ontario</h2>
+        <h3> Summer 2020</h3>
+      </div>
+    </header>
+    <div class="wrapper">
+      <main>
+        <section>
+         <p> A two day festival experience featuring all your favourite bands right here in your own backyard.</p>
+          <section class="images">
+           <div>
+              <img src="images/awesomefest.jpg" alt="awesomefest concert picture">
+           </div>
+           <div>
+            <img src="images/awesomefest2-2.jpg" alt="guy and girl dancing at concert">
+           </div>
+          </section>
+        </section>
+              <!-- Table for ticket type -->
+        <section>
+         <h3> Tickets </h3>
+         <table>
+          <thead>
+            <tr>
+              <th>Ticket Type</th>
+              <th>Description</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Band Member</td>
+              <td>Two Day Camping Pass in exclusive VIP section, VIP backstage access to meet the bands, Awesomefest Swag*</td>
+              <td>$600.00</td>
+            </tr>
+            <tr>
+              <td>Entourage</td>
+              <td>One Day Camping pass, Awesomefest Swag*</td>
+              <td>$400.00</td>
+            </tr>
+            <tr>
+              <td>Road Crew</td>
+              <td>One day access to main and side stage. Awesomefest beanie.</td>
+              <td>$200.00</td>
+            </tr>
+          </tbody>
+        </table>
+        </section>
+        <section>
+                <!-- ticket ordering form -->
+          <form>
+            <fieldset>
+              <label for="fName">First Name</label></br>
+              <input type="text" name="" value="" required placeholder="First Name">
+            </fieldset>
+            <fieldset>
+              <label for="lname">Last Name</label></br>
+              <input type="text" name="" value="" required placeholder="Last Name">
+            </fieldset>
+            <fieldset>
+              <label for="email">Email</label></br>
+              <input type="email" name="" value="" required placeholder="Email">
+            </fieldset>
+            <fieldset>
+              <label for="phone">Phone Number</label></br>
+              <input type="number" name="" value="" placeholder="1-555-555-5555">
+            </fieldset>
+            <fieldset>
+              <h4>Ticket Type</h4>
+              <label for="">Band Member</label>
+              <input type="radio" name="ticketOption" value="" id="band" checked="checked">
+              <label for="">Entourage</label>
+              <input type="radio" name="ticketOption" value="" id="entourage">
+              <label for="">Road Crew</label>
+              <input type="radio" name="ticketOption" value="" id="road">
+            </fieldset>
+            <fieldset>
+              <select class="" name=""required>
+                <option value="">Choose a Card</option>
+                <option value="Vias">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="Amex">Amex</option>
+                <option value="Diners Club">Diners Club</option>
+              </select>
+            </fieldset>
+            <fieldset>
+                <label for="phone">Credit Card Number</label></br>
+                <input type="number" name="" value="" required placeholder="Credit Card">
+              </fieldset>
+              <fieldset>
+                <label for="phone">Security Number</label></br>
+                <input type="number" name="" value="" required placeholder="Security Number">
+            </fieldset>
+            <button>Submit</button>
+          </form>
+          <!-- need form here, must include fields for first name, last name, email, phonenumber,  ticket type (dropdown or radio boxes), credit card type (dropdown) and cc number.-->
+        </section>
+      </main>
+    </div><!--end wrapper-->
+    <footer>
+      <p> Copyright AwesomeFest 2020 &copy;. All Rights Reserved.</p>
+      <p> * "Swag" to be determined at a later date and subject to change with out notice</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+  </html>
